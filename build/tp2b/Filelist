@@ -1,0 +1,6 @@
+SOURCES = int_alloctab.c freetab.c float_alloctab.c float_calloctab.c etiqAr.c lecfima.c \
+ppquad.c valq.c calFbase.c calDerFbase.c transFK.c matJacob.c invertM2x2.c numNaret.c selectPts.c \
+W.c ADWDW.c WW.c parameters.c \
+intElem.c intAret.c cal1Elem.c impcalel.c tp2b.c \
+
+OBJECTS = $(SOURCES:.c=.o)

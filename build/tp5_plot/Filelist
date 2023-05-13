@@ -1,0 +1,15 @@
+SOURCES = int_alloctab.c freetab.c float_alloctab.c float_calloctab.c etiqAr.c lecfima.c \
+ppquad.c valq.c calFbase.c calDerFbase.c transFK.c matJacob.c invertM2x2.c numNaret.c selectPts.c \
+W.c ADWDW.c WW.c parameters.c \
+intElem.c intAret.c cal1Elem.c impcalel.c \
+Assemblage.c EcrSMD.c LecSMD.c \
+dSMDaSMO.c LecSMO.c \
+int_imptab.c float_imptab.c concat.c \
+dSMOaPR.c solex.c CalSol.c tp5_plot.c
+
+FORTRAN_SOURCES = affsmd.f assmat.f affsmo.f cdesse.f tri.f \
+affsol.f impmpr.f ltlpr.f rsprl.f rspru.f
+
+OBJECTS = $(SOURCES:.c=.o)
+
+FORTRAN_OBJECTS = $(FORTRAN_SOURCES:.f=.o)
